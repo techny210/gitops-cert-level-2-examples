@@ -29,9 +29,9 @@ spec:
         - /metadata/annotations
         
     ignoreDifferences:
+    - group: apps
       kind: Secret
       jsonPointers:
-         - /type/data/my-username
          - /type/data/my-password
         
    
